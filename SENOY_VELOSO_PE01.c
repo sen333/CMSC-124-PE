@@ -79,7 +79,7 @@ void programDescription() {
     printf("--- [X] - Exits the program.\n");
     printf("\nProgram Developers:\n");
     printf("- Justin Dominic S. Veloso (2023-07851)\nContribution: Composed main and menu functions\n");
-    printf("- Kyle Senoy (2023-06686)\nContribution: Programmed Evaluate Expression functions\n");
+    printf("- Kyle Senoy (2023-06686)\nContribution: Programmed Infix to Postfix Notation and Evaluate Expression functions\n");
     printf("\nDate Developed: February 10, 2025\n");
 }
 
