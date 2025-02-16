@@ -70,14 +70,17 @@ void displayMenu() {
 
 // Program description
 void programDescription() {
-    printf("\n--- Program Description ---\n");
-    printf("Developers: Kyle Senoy (2023-096686) a nd Justin Veloso(SN)\n");
-    printf("Date Developed: 02/10/2025\n");
-    printf("This program converts an infix expression to postfix notation and evaluates it.\n");
-    printf("Valid operators: +, -, *, /, and %.\n");
-    printf("Parentheses () are supported.\n");
-    printf("Spaces are optional.\n");
-    printf("Return to the main menu...\n");
+    printf("\nThis program converts an infix expression to postfix notation and evaluates it.\n");
+    printf("--- [P] - Displays program details.\n");
+    printf("--- [E] - Asks User Input and Evaluates Expressions");
+    printf("          - Valid operators: +, -, *, /, and %\n");
+    printf("          - Parentheses () are supported.\n");
+    printf("          - Spaces are optional.\n");
+    printf("--- [X] - Exits the program.\n");
+    printf("\nProgram Developers:\n");
+    printf("- Justin Dominic S. Veloso (2023-07851)\nContribution: Composed main and menu functions\n");
+    printf("- Kyle Senoy (2023-06686)\nContribution: Programmed Evaluate Expression functions\n");
+    printf("\nDate Developed: February 10, 2025\n");
 }
 
 // Evaluate expressions
