@@ -72,7 +72,7 @@ void displayMenu() {
 void programDescription() {
     printf("\nThis program converts an infix expression to postfix notation and evaluates it.\n");
     printf("--- [P] - Displays program details.\n");
-    printf("--- [E] - Asks User Input and Evaluates Expressions");
+    printf("--- [E] - Asks User Input and Evaluates Expressions\n");
     printf("          - Valid operators: +, -, *, /, and %\n");
     printf("          - Parentheses () are supported.\n");
     printf("          - Spaces are optional.\n");
