@@ -5,8 +5,8 @@
 
 (define (factorial n)
   (if (<= n 1)
-      1
-      (* n (factorial (- n 1)))))
+      1 ; return 1 if n is equal or less than 1
+      (* n (factorial (- n 1))))) ; multiplies n to itself with a decrement of 1 each time
 
 (define (main)
   (define n 124)  
