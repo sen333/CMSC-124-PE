@@ -9,7 +9,8 @@
       (* n (factorial (- n 1))))) ; multiplies n to itself with a decrement of 1 each time
 
 (define (main)
-  (define n 124)  
+  (display "Enter a number: ")
+  (define n (string->number(read-line)))  
   (displayln (string-append "Factorial of " (number->string n) " is " (number->string (factorial n))))) 
 
 (main)
